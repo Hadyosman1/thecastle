@@ -247,13 +247,7 @@
     @apply shadow-[-20px_25px_0_0_color-mix(in_oklab,_var(--primary)_40%,_transparent)] max-sm:shadow-[-10px_15px_0_0_color-mix(in_oklab,_var(--primary)_40%,_transparent)];
   }
 
-  .watch-cover-bg {
-    background: url("/watch_cover.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: calc(100vh - var(--header-height));
-    background-attachment: fixed;
+  #contact-us {
     position: relative;
 
     &::after {
