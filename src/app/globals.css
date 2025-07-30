@@ -244,8 +244,7 @@
   }
 
   .img-shadow-shape {
-    box-shadow: -20px 25px 0 0
-      color-mix(in oklab, var(--primary) 40%, transparent);
+    @apply shadow-[-20px_25px_0_0_color-mix(in_oklab,_var(--primary)_40%,_transparent)] max-sm:shadow-[-10px_15px_0_0_color-mix(in_oklab,_var(--primary)_40%,_transparent)];
   }
 
   .watch-cover-bg {

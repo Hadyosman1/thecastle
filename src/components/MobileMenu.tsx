@@ -37,7 +37,6 @@ export default function MobileMenu({ className }: Props) {
         <div
           onClick={(e) => {
             const target = e.target as HTMLElement;
-            console.log(target);
             if (target.tagName === "A") setOpen(false);
           }}
           className="flex grow flex-col items-center justify-center gap-2"

@@ -10,7 +10,7 @@ export default function HeroSection() {
     <section>
       <div className="container pt-2 pb-10 md:pt-4 md:pb-14">
         <GoldenGuaranteeBanner />
-        <div className="grid grid-cols-1 items-center gap-7 md:grid-cols-3">
+        <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-3">
           <div className="md:col-span-2">
             <div className="space-y-6 text-balance">
               <span className="bg-primary/20 text-primary inline-flex items-center gap-1 rounded-4xl px-4.5 py-2.5 text-xl font-semibold">
@@ -56,7 +56,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="max-md:order-[-1]">
             <HeroImage />
           </div>
         </div>
